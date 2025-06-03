@@ -1,0 +1,43 @@
+:root{
+  --mygreen:rgb(113, 205, 20);
+  --myfamily: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar {
+  height: 100px;
+  background-color: white;
+  
+}
+.navItem{
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-family: var(--myfamily);
+  position: relative;
+  top: 20px;
+  left: 500px;
+}
+
+.logo {
+  position: relative;
+  top: 30px;
+  left: 400px;
+}
+
+
+.search{
+  color:grey;
+  position: relative;
+  left: 700px;
+  top: 15px;
+  margin: 10px;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+
+.search:hover{
+  color: var(--mygreen) ;
+}
+
