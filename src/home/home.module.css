@@ -1,0 +1,516 @@
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --mygreen: rgb(113, 205, 20);
+}
+.firstpartinhomepage {
+  width: 100vw;
+  height: 800px;
+  background: url(ivan-n-47Oo3WYDPNk-unsplash.jpg) center/cover no-repeat;
+}
+
+.firstpartfirsttext {
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  position: relative;
+  left: 460px;
+  top: 200px;
+}
+
+.titlefirtspage {
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  top: 210px;
+  left: 450px;
+  font-size: 45px;
+  width: 400px;
+}
+
+.show {
+  color: var(--mygreen);
+}
+
+.style {
+  color: var(--mygreen);
+}
+
+.firstpagetext {
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  left: 450px;
+  top: 220px;
+}
+
+.firstpagebutton {
+  border: none;
+  padding: 10px 22px;
+  background-color: var(--mygreen);
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  position: relative;
+  left: 450px;
+  top: 240px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.firstpagebutton:hover {
+  border: var(--mygreen) solid 1px;
+  background: none;
+}
+
+.cardlar {
+  height: 300px;
+}
+
+.cardContainer {
+  width: 1100px;
+  height: 200px;
+  position: relative;
+  top: 50px;
+  left: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 240px;
+  height: 170px;
+  border: 1px black solid;
+}
+
+.carddd {
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  left: 45%;
+}
+
+.cardTitle {
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 11%;
+}
+.cardTitle2 {
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 27%;
+}
+.cardTitle3 {
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 23%;
+}
+.cardTitle4 {
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 23%;
+}
+.cardTitleLink {
+  text-decoration: none;
+  color: black;
+}
+.cardText {
+  position: relative;
+  top: 65px;
+  left: 17%;
+}
+
+.featuredProduct {
+  height: 900px;
+}
+
+.featuredProductTitle {
+  display: inline;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 45%;
+  border-bottom: 1px rgb(224, 224, 224) solid;
+  padding-bottom: 10px;
+}
+
+.featuredProductText {
+  position: relative;
+  top: 80px;
+  left: 42%;
+  color: rgb(126, 125, 125);
+  font-family: sans-serif;
+}
+
+.featuredProductCards {
+  width: 1140px;
+  height: 600px;
+  position: relative;
+  top: 150px;
+  left: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.featuredProductCard1 {
+  height: 550px;
+  width: 360px;
+  border: 1px rgb(230, 229, 229) solid;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.featuredProductCard1Title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.featuredProductCard1Title:hover {
+  color: var(--mygreen);
+}
+
+.featuredProductCard1Fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.featuredProductCard1IndirimliFiyat {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+.indirim {
+  width: 100vw;
+  height: 550px;
+  background-color: #f8f9fa;
+}
+
+.indirimadam {
+  position: relative;
+  top: -70px;
+  left: 440px;
+}
+
+.indirimText {
+  font-weight: 300;
+  font-size: 24px;
+  font-family: sans-serif;
+  position: relative;
+  top: -500px;
+  left: 1100px;
+  letter-spacing: 4px;
+}
+.indirimTitle {
+  font-size: 100px;
+  font-family: sans-serif;
+  position: relative;
+  top: -475px;
+  left: 1050px;
+}
+
+.indirimBtn {
+  border: none;
+  background-color: var(--mygreen);
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  top: -450px;
+  left: 1160px;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+.indirimBtn:hover {
+  background: none;
+  border: 1px solid var(--mygreen);
+  color: var(--mygreen);
+}
+
+.indirimtime {
+  color: rgb(184, 184, 184);
+  position: relative;
+  top: -420px;
+  left: 1175px;
+}
+
+.new {
+  height: 1150px;
+}
+
+.newBigCard {
+  height: 780px;
+  width: 540px;
+  background-color: #f8f9fa;
+  position: relative;
+  top: 170px;
+  left: 400px;
+}
+
+.newBigCardText {
+  font-family: sans-serif;
+  font-size: 25px;
+  color: rgb(14, 13, 13);
+
+  position: relative;
+  top: 100px;
+  left: 170px;
+}
+.newBigCardTitle {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: rgb(14, 13, 13);
+
+  position: relative;
+  top: 130px;
+  left: 100px;
+}
+
+.bigcardimg {
+  position: relative;
+  top: 250px;
+  left: 20px;
+}
+
+.newBigCardPrice {
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: 350px;
+  left: 225px;
+}
+
+.newBigCardBtn {
+  width: 150px;
+  height: 50px;
+  background-color: var(--mygreen);
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 380px;
+  left: 210px;
+  transition: all 0.3s linear;
+}
+.newBigCardBtn:hover {
+  background: none;
+  border: 1px solid var(--mygreen);
+  color: var(--mygreen);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.newcard1 {
+  height: 400px;
+  width: 262px;
+  border: 1px rgb(230, 229, 229) solid;
+  position: relative;
+  top: -630px;
+  left: 1000px;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.newcard1title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.newcard1title:hover {
+  color: var(--mygreen);
+}
+
+.newcard1fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.newcard1indirimi {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+
+
+.newcard2 {
+  height: 400px;
+  width: 262px;
+  border: 1px rgb(230, 229, 229) solid;
+  position: relative;
+  top: -1030px;
+  left: 1290px;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.newcard2title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.newcard2title:hover {
+  color: var(--mygreen);
+}
+
+.newcard2fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.newcard2indirimi {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+.newcard3 {
+  height: 400px;
+  width: 262px;
+  border: 1px rgb(230, 229, 229) solid;
+  position: relative;
+  top: -1010px;
+  left: 1000px;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.newcard3title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.newcard3title:hover {
+  color: var(--mygreen);
+}
+
+.newcard3fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.newcard3indirimi {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+
+
+.newcard4 {
+  height: 400px;
+  width: 262px;
+  border: 1px rgb(230, 229, 229) solid;
+  position: relative;
+  top: -1410px;
+  left: 1290px;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.newcard4title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.newcard4title:hover {
+  color: var(--mygreen);
+}
+
+.newcard4fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.newcard4indirimi {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+
