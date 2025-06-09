@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./home/home";
 import Navbar from "./navbar/navbar";
-import Blog from "./blog/blog";
-import Shop from "./shop/shop";
-import Pages from "./pages/pages";
+import shopCategory from "./shopCategory/shopCategory"
 import Contact from "./contact/contact";
 
 function App() {
@@ -14,9 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/pages" element={<Pages />} />
+        <Route path="/shopCategory" element={<shopCategory />}/>
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

@@ -9,8 +9,21 @@ const Navbar = () => {
       <Link className={navbarcss.navItem} to="/">
         home
       </Link>
-      <Link className={navbarcss.navItem} to="/shop">
-        shop
+      <Link className={navbarcss.navItem} >
+        <select name="" id="">
+          <option value="">
+            <Link to="/shopCategory">shop category</Link>
+          </option>
+          <option value="">
+            <Link to="/eiser/src/productDetails/productDetails.jsx">product details</Link>
+          </option>
+          <option value="">
+            <Link to="/eiser/src/productChekout/productChekout.jsx">product checkout</Link>
+          </option>
+          <option value="">
+            <Link to="/eiser/src/shoppingCart/shoppingCart.jsx">shopping cart</Link>
+          </option>
+        </select>
       </Link>
       <Link className={navbarcss.navItem} to="/blog">
         blog
@@ -21,6 +34,17 @@ const Navbar = () => {
       <Link className={navbarcss.navItem} to="/contact">
         contact
       </Link>
+
+
+
+
+
+
+
+
+
+
+
 
       <Link className={navbarcss.search}>
         <i class="fa-solid fa-magnifying-glass search"></i>

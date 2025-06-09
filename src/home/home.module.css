@@ -5,6 +5,7 @@
 }
 body {
   overflow-x: hidden;
+  height: 6275px !important;
 }
 :root {
   --mygreen: rgb(113, 205, 20);
@@ -323,17 +324,6 @@ body {
   color: var(--mygreen);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .newcard1 {
   height: 400px;
   width: 262px;
@@ -375,8 +365,6 @@ body {
   left: 130px;
   text-decoration: line-through;
 }
-
-
 
 .newcard2 {
   height: 400px;
@@ -420,13 +408,6 @@ body {
   text-decoration: line-through;
 }
 
-
-
-
-
-
-
-
 .newcard3 {
   height: 400px;
   width: 262px;
@@ -468,8 +449,6 @@ body {
   left: 130px;
   text-decoration: line-through;
 }
-
-
 
 .newcard4 {
   height: 400px;
@@ -513,4 +492,378 @@ body {
   text-decoration: line-through;
 }
 
+.Inspired {
+  height: 1133px;
+}
 
+.InspiredTitle {
+  display: inline;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 45%;
+  border-bottom: 1px rgb(224, 224, 224) solid;
+  padding-bottom: 10px;
+}
+
+.InspiredText {
+  position: relative;
+  top: 80px;
+  left: 800px;
+  color: rgb(126, 125, 125);
+  font-family: sans-serif;
+}
+
+.InspiredCardRow1 {
+  width: 1110px;
+  height: 400px;
+  position: relative;
+  top: 170px;
+  left: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.InspiredCardRow2 {
+  width: 1110px;
+  height: 400px;
+  position: relative;
+  top: 200px;
+  left: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inscard4 {
+  height: 400px;
+  width: 262px;
+  border: 1px rgb(230, 229, 229) solid;
+}
+
+.ayakkabiphoto {
+  border-bottom: 1px rgb(230, 229, 229) solid;
+}
+
+.inscard4title {
+  font-family: sans-serif;
+  color: rgb(92, 92, 92);
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  transition: all 0.3s linear;
+}
+.inscard4title:hover {
+  color: var(--mygreen);
+}
+
+.inscard4fiyat {
+  font-family: sans-serif;
+  font-size: 23px;
+  position: relative;
+  top: 35px;
+  left: 25px;
+}
+
+.inscard4indirimi {
+  font-family: sans-serif;
+  position: relative;
+  top: 12px;
+  left: 130px;
+  text-decoration: line-through;
+}
+
+.blog {
+  height: 900px;
+}
+
+.BlogTitle {
+  display: inline;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  left: 45%;
+  border-bottom: 1px rgb(224, 224, 224) solid;
+  padding-bottom: 10px;
+}
+
+.BlogText {
+  position: relative;
+  top: 80px;
+  left: 750px;
+  color: rgb(126, 125, 125);
+  font-family: sans-serif;
+}
+
+.blogcards {
+  width: 1110px;
+  height: 600px;
+  position: relative;
+  top: 170px;
+  left: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogCard1 {
+  width: 360px;
+  height: 600px;
+}
+
+.byadmintext {
+  color: grey;
+  font-family: sans-serif;
+  position: relative;
+  top: 20px;
+}
+
+.blogCard1icon {
+  color: grey;
+  position: relative;
+  top: 2px;
+  left: 100px;
+}
+
+.blogCard1commentnumber {
+  color: grey;
+  position: relative;
+  top: 2px;
+  left: 110px;
+  font-family: sans-serif;
+}
+
+.blogCard1Title {
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  line-height: 30px;
+  color: rgb(51, 51, 51);
+  transition: all 0.3s linear;
+}
+.blogCard1Title:hover {
+  color: var(--mygreen);
+}
+.blogcard1parg {
+  font-family: sans-serif;
+  color: grey;
+  position: relative;
+  top: 50px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.learnmore {
+  color: rgb(51, 51, 51);
+  position: relative;
+  top: 80px;
+  font-size: 15px;
+  font-family: sans-serif;
+  transition: all 0.3s linear;
+}
+.arrow {
+  color: rgb(51, 51, 51);
+  position: relative;
+  top: 65px;
+  left: 90px;
+  font-size: 15px;
+}
+.learnmore:hover {
+  color: var(--mygreen);
+}
+.footer {
+  height: 542px;
+  background-color: #0d0d1f;
+}
+
+.footerul1 {
+  position: relative;
+  left: 400px;
+  top: 125px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+.footerul1li {
+  margin: 20px 0px;
+
+  font-size: 15px;
+  transition: color 0.3s linear;
+  cursor: pointer;
+}
+.footerul1li:hover {
+  color: white;
+}
+
+.footerul1Title {
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 120px;
+  font-family: sans-serif;
+}
+
+.footerul2 {
+  position: relative;
+  left: 600px;
+  top: -66px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul2Title {
+  color: white;
+  position: relative;
+  left: 600px;
+  top: -66px;
+  font-family: sans-serif;
+}
+
+.footerul3 {
+  position: relative;
+  left: 800px;
+  top: -250px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul3Title {
+  color: white;
+  position: relative;
+  left: 800px;
+  top: -255px;
+  font-family: sans-serif;
+}
+.footerul4 {
+  position: relative;
+  left: 1000px;
+  top: -440px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul4Title {
+  color: white;
+  position: relative;
+  left: 1000px;
+  top: -450px;
+  font-family: sans-serif;
+}
+
+.newsletter {
+  color: white;
+  position: relative;
+  left: 1200px;
+  top: -640px;
+  font-family: sans-serif;
+}
+
+.newsletterText {
+  position: relative;
+  left: 1200px;
+  top: -610px;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.newsletterInp {
+  position: absolute;
+  top: 5950px;
+  left: 1200px;
+  height: 60px;
+  width: 230px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  padding-left: 20px;
+}
+
+.subbtn {
+  position: absolute;
+  top: 5962px;
+  left: 1400px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: var(--mygreen);
+  color: white;
+}
+
+.copyrightmessage {
+  position: absolute;
+  left: 400px;
+  top: 6150px;
+  color: white;
+}
+
+.copyrighticon {
+  position: absolute;
+  left: 845px;
+  top: 6150px;
+  color: white;
+}
+
+.by {
+  position: absolute;
+  left: 866px;
+  top: 6150px;
+  color: white;
+}
+
+.bycolor {
+  color: var(--mygreen);
+  cursor: pointer;
+}
+
+.footericon1 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6130px;
+  left: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon2 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6130px;
+  left: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon3 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6130px;
+  left: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon4 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 6130px;
+  left: 1350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
