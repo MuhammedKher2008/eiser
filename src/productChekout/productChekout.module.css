@@ -1,0 +1,730 @@
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  height: 2100px;
+}
+
+.tanitim {
+  position: absolute;
+  top: 101px;
+  height: 200px;
+  background-color: #f6f6f6;
+  width: 100vw;
+}
+
+.tanitimtitle {
+  position: relative;
+  top: 50px;
+  font-size: 30px;
+  left: 400px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.paragraf {
+  color: #797979;
+  font: 1rem sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: 65px;
+  left: 400px;
+}
+
+.tanitimbolum {
+  font-family: sans-serif;
+  color: #797979;
+  position: relative;
+  top: 50px;
+  left: 1500px;
+}
+
+.loginPart {
+  width: 1110px;
+  height: 270px;
+  position: relative;
+  top: 400px;
+  left: 400px;
+}
+
+.LoginSerit {
+  width: 1110px;
+  height: 40px;
+  background-color: #f6f6f6;
+}
+
+.loginSeritTitle {
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: 12px;
+  left: 50px;
+}
+.loginSeritLink {
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: -5px;
+  left: 190px;
+  color: rgb(113, 205, 20);
+}
+.LoginText {
+  color: #797979;
+  width: 1050px;
+  position: relative;
+  left: 50px;
+  top: 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.loginNameInp {
+  border: #d6d6d6 1px solid;
+  color: #797979;
+  border-radius: 5px;
+  width: 305px;
+  height: 40px;
+  position: relative;
+  top: 70px;
+  left: 50px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.loginBtn {
+  border: none;
+  background-color: rgb(113, 205, 20);
+  color: white;
+  width: 160px;
+  height: 40px;
+  font-family: sans-serif;
+  position: relative;
+  top: 140px;
+  left: -640px;
+  transition: all 0.5s linear;
+}
+.loginBtn:hover {
+  background-color: white;
+  color: black;
+  border: rgb(113, 205, 20) 1px solid;
+}
+.loginCheck {
+  position: relative;
+  top: 140px;
+  left: -610px;
+}
+
+.LoginCheckLabel {
+  border: none;
+  width: 160px;
+  height: 40px;
+  font-family: sans-serif;
+  position: relative;
+  top: 140px;
+  left: -600px;
+  color: #797979;
+}
+.LoginForgetPassword {
+  font-family: sans-serif;
+  position: relative;
+  top: 170px;
+  left: 50px;
+  cursor: pointer;
+  color: #797979;
+  text-decoration-line: underline;
+}
+
+.CuponInp {
+  border: #d6d6d6 1px solid;
+  color: #797979;
+  border-radius: 5px;
+  width: 610px;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.cuponBtn {
+  border: none;
+  background-color: rgb(113, 205, 20);
+  color: white;
+  width: 160px;
+  height: 40px;
+  font-family: sans-serif;
+  position: relative;
+  top: 100px;
+  left: -600px;
+  transition: all 0.5s linear;
+}
+.cuponBtn:hover {
+  background-color: white;
+  color: black;
+  border: rgb(113, 205, 20) 1px solid;
+}
+
+.billing {
+  position: relative;
+  top: 400px;
+  left: 400px;
+  width: 670px;
+}
+.billingTitle {
+  font-family: sans-serif;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.nameInp {
+  border: 2px #d4d3d3 solid;
+  width: 290px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 30px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.hakkindaInp {
+  border: 2px #d4d3d3 solid;
+  width: 290px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 70px;
+  margin: 0px 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.companyinp {
+  border: 2px #d4d3d3 solid;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 50px;
+  margin: 0px 10px;
+
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.country {
+  border: 2px #d4d3d3 solid;
+  width: 630px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 90px;
+  margin: 0px 10px;
+  color: #797979;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.address1inp {
+  border: 2px #d4d3d3 solid;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 110px;
+  margin: 0px 10px;
+
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.address2inp {
+  border: 2px #d4d3d3 solid;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 130px;
+  margin: 0px 10px;
+
+  font-size: 1rem;
+  padding-left: 20px;
+}
+.cityinp {
+  border: 2px #d4d3d3 solid;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 150px;
+  margin: 0px 10px;
+
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.district {
+  border: 2px #d4d3d3 solid;
+  width: 630px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 170px;
+  margin: 0px 10px;
+  color: #797979;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.postcodeinp {
+  border: 2px #d4d3d3 solid;
+  width: 600px;
+  height: 30px;
+  border-radius: 3px;
+  position: relative;
+  top: 190px;
+  margin: 0px 10px;
+
+  font-size: 1rem;
+  padding-left: 20px;
+}
+
+.checkLabel {
+  position: relative;
+  top: 240px;
+  left: 50px;
+  font-family: sans-serif;
+  color: #797979;
+}
+
+.check {
+  position: relative;
+  top: 265px;
+  left: -630px;
+}
+
+.shipping {
+  position: relative;
+  top: 700px;
+  left: 400px;
+  width: 670px;
+}
+.shippingTitle {
+  font-family: sans-serif;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.check2Label {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  font-family: sans-serif;
+  color: #797979;
+}
+
+.check2 {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.ordernotes {
+  width: 650px;
+  height: 120px;
+  border: #797979 solid 1px;
+  position: relative;
+  top: 70px;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.siparis {
+  background-color: #f9f9f9;
+  width: 350px;
+  height: 940px;
+  position: relative;
+  top: -150px;
+  left: 1150px;
+}
+
+.yourordertitle {
+  font-family: sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  border-bottom: #c2c2c2 1px solid;
+  width: 300px;
+}
+.text1 {
+  color: #797979;
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+.total1 {
+  color: #797979;
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  top: 32px;
+  left: 270px;
+}
+
+.firstline {
+  width: 290px;
+  height: 1px;
+  background-color: #c2c2c2;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.text2 {
+  color: #797979;
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+.total2 {
+  color: #797979;
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  top: 40px;
+  left: 270px;
+}
+.total3 {
+  color: #797979;
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  top: 40px;
+  left: 220px;
+}
+.tane2 {
+  position: relative;
+  left: 170px;
+  top: 55px;
+  font-family: sans-serif;
+}
+
+.subtotal2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  top: 55px;
+  left: 30px;
+}
+
+.firstradio {
+  position: relative;
+  top: 50px;
+  left: 40px;
+}
+.firstradiolabel {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  font-family: sans-serif;
+  color: #797979;
+}
+
+.firstradioaciklama {
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  position: relative;
+  top: 70px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #797979;
+  line-height: 25px;
+}
+
+.firstradio2 {
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.firstradiolabel2 {
+  position: relative;
+  top: 80px;
+  left: 50px;
+  font-family: sans-serif;
+  color: #797979;
+}
+
+.firstradioaciklama2 {
+  background-color: white;
+  width: 280px;
+  height: 100px;
+  position: relative;
+  top: 100px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(113, 205, 20);
+  line-height: 25px;
+}
+
+.cards {
+  position: relative;
+  top: 90px;
+  left: 100px;
+}
+
+.lastcheck {
+  position: relative;
+  top: 120px;
+  left: 40px;
+}
+
+.sozlesme {
+  font-family: sans-serif;
+  font-size: 12px;
+  position: relative;
+  top: 105px;
+  left: 60px;
+}
+
+.sozlesmespan {
+  color: rgb(113, 205, 20);
+}
+
+.lastBtn {
+  border: none;
+  border-radius: 8px;
+  width: 290px;
+  height: 40px;
+  background-color: rgb(113, 205, 20);
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: 120px;
+  left: 30px;
+}
+
+.footer {
+  position: relative;
+  top: 150px;
+  height: 542px;
+  background-color: #0d0d1f;
+}
+
+.footerul1 {
+  position: relative;
+  left: 400px;
+  top: 125px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+.footerul1li {
+  margin: 20px 0px;
+
+  font-size: 15px;
+  transition: color 0.3s linear;
+  cursor: pointer;
+}
+.footerul1li:hover {
+  color: white;
+}
+
+.footerul1Title {
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 120px;
+  font-family: sans-serif;
+}
+
+.footerul2 {
+  position: relative;
+  left: 600px;
+  top: -66px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul2Title {
+  color: white;
+  position: relative;
+  left: 600px;
+  top: -66px;
+  font-family: sans-serif;
+}
+
+.footerul3 {
+  position: relative;
+  left: 800px;
+  top: -250px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul3Title {
+  color: white;
+  position: relative;
+  left: 800px;
+  top: -255px;
+  font-family: sans-serif;
+}
+.footerul4 {
+  position: relative;
+  left: 1000px;
+  top: -440px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul4Title {
+  color: white;
+  position: relative;
+  left: 1000px;
+  top: -450px;
+  font-family: sans-serif;
+}
+
+.newsletter {
+  color: white;
+  position: relative;
+  left: 1200px;
+  top: -640px;
+  font-family: sans-serif;
+}
+
+.newsletterText {
+  position: relative;
+  left: 1200px;
+  top: -610px;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.newsletterInp {
+  position: absolute;
+  top: 230px;
+  left: 1200px;
+  height: 60px;
+  width: 230px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  padding-left: 20px;
+}
+
+.subbtn {
+  position: absolute;
+  top: 240px;
+  left: 1400px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: rgb(113, 205, 20);
+  color: white;
+}
+
+.copyrightmessage {
+  position: absolute;
+  left: 400px;
+  top: 350px;
+  color: white;
+}
+
+.copyrighticon {
+  position: absolute;
+  left: 845px;
+  top: 350px;
+  color: white;
+}
+
+.by {
+  position: absolute;
+  left: 866px;
+  top: 350px;
+  color: white;
+}
+
+.bycolor {
+  color: rgb(113, 205, 20);
+  cursor: pointer;
+}
+
+.footericon1 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon2 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon3 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon4 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

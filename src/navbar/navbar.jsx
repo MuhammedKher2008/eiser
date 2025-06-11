@@ -23,11 +23,15 @@ const Navbar = () => {
         <option value="">Shop Category</option>
         <option value="/shopCategory">Shop Category</option>
         <option value="/productDetails">product details</option>
+        <option value="/productChekout">product Chekout</option>
+        <option value="/Cart">cart</option>
       </select>
 
-      <Link className={navbarcss.navItem} to="/blog">
-        blog
-      </Link>
+       <select className={navbarcss.navItem} onChange={handleSelectChange}>
+        <option value="">blog</option>
+        <option value="/blog">blog</option>
+        <option value="/blogdetails">blog details</option>
+      </select>
       <Link className={navbarcss.navItem} to="/pages">
         pages
       </Link>
