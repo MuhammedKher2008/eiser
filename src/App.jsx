@@ -9,6 +9,7 @@ import ProductChekout from "./productChekout/productChekout";
 import Contact from "./contact/contact";
 import ShoppingCart from "./shoppingCart/shoppingCart";
 import Blog from "./blog/blog";
+import BlogDetails from "./blogDetails/blogDetails"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/productChekout" element={<ProductChekout />}/>
         <Route path="/Cart" element={<ShoppingCart />}/>
         <Route path="/blog" element={<Blog />}/>
+        <Route path="/blogdetails" element={<BlogDetails />}/>
 
         <Route path="/contact" element={<Contact />} />
       </Routes>
