@@ -5,7 +5,6 @@
 }
 body {
   overflow-x: hidden;
-  height: 2500px;
 }
 
 .tanitim {
@@ -230,7 +229,7 @@ body {
 
 .footer {
     position: relative;
-    top: 700px;
+    top: 800px;
   height: 542px;
   background-color: #0d0d1f;
 }

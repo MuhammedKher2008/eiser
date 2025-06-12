@@ -8,7 +8,7 @@ import ProductDetails from "./productDetails/productDetails";
 import ProductChekout from "./productChekout/productChekout";
 import Contact from "./contact/contact";
 import ShoppingCart from "./shoppingCart/shoppingCart";
-
+import Blog from "./blog/blog";
 
 
 function App() {
@@ -21,6 +21,8 @@ function App() {
         <Route path="/productDetails" element={<ProductDetails />}/>
         <Route path="/productChekout" element={<ProductChekout />}/>
         <Route path="/Cart" element={<ShoppingCart />}/>
+        <Route path="/blog" element={<Blog />}/>
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
