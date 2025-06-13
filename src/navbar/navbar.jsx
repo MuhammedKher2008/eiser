@@ -32,9 +32,12 @@ const Navbar = () => {
         <option value="/blog">blog</option>
         <option value="/blogdetails">blog details</option>
       </select>
-      <Link className={navbarcss.navItem} to="/pages">
-        pages
-      </Link>
+       <select className={navbarcss.navItem} onChange={handleSelectChange}>
+        <option value="">tracking</option>
+        <option value="/tracking">tracking</option>
+        <option value="/Elements">Elements</option>
+      </select>
+    
       <Link className={navbarcss.navItem} to="/contact">
         contact
       </Link>

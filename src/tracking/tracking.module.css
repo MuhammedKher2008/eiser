@@ -1,0 +1,283 @@
+* {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+.tanitim {
+  position: absolute;
+  top: 101px;
+  height: 200px;
+  background-color: #f6f6f6;
+  width: 100vw;
+}
+
+.tanitimtitle {
+  position: relative;
+  top: 50px;
+  font-size: 30px;
+  left: 400px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.paragraf {
+  color: #797979;
+  font: 1rem sans-serif;
+  font-weight: 100;
+  position: relative;
+  top: 65px;
+  left: 400px;
+}
+
+.tanitimbolum {
+  font-family: sans-serif;
+  color: #797979;
+  position: relative;
+  top: 50px;
+  left: 1500px;
+}
+
+.baslik {
+  position: absolute;
+  top: 500px;
+  font-family: sans-serif;
+
+  left: 400px;
+  width: 1000px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.orderid {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  width: 590px;
+  padding: 20px 20px;
+  font-size: 1rem;
+  border: 1px #ececec solid;
+}
+
+.email {
+  position: absolute;
+  top: 670px;
+  left: 400px;
+  width: 590px;
+  padding: 20px 20px;
+  font-size: 1rem;
+  border: 1px #ececec solid;
+}
+
+.btn {
+  position: absolute;
+  top: 750px;
+  left: 400px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(113, 205, 20);
+  color: white;
+  font-size: 1rem;
+}
+
+.footer {
+  position: relative;
+  height: 542px;
+  top: 900px;
+  background-color: #0d0d1f;
+}
+
+.footerul1 {
+  position: relative;
+  left: 400px;
+  top: 125px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+.footerul1li {
+  margin: 20px 0px;
+
+  font-size: 15px;
+  transition: color 0.3s linear;
+  cursor: pointer;
+}
+.footerul1li:hover {
+  color: white;
+}
+
+.footerul1Title {
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 120px;
+  font-family: sans-serif;
+}
+
+.footerul2 {
+  position: relative;
+  left: 600px;
+  top: -66px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul2Title {
+  color: white;
+  position: relative;
+  left: 600px;
+  top: -66px;
+  font-family: sans-serif;
+}
+
+.footerul3 {
+  position: relative;
+  left: 800px;
+  top: -250px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul3Title {
+  color: white;
+  position: relative;
+  left: 800px;
+  top: -255px;
+  font-family: sans-serif;
+}
+.footerul4 {
+  position: relative;
+  left: 1000px;
+  top: -440px;
+  list-style: none;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.footerul4Title {
+  color: white;
+  position: relative;
+  left: 1000px;
+  top: -450px;
+  font-family: sans-serif;
+}
+
+.newsletter {
+  color: white;
+  position: relative;
+  left: 1200px;
+  top: -640px;
+  font-family: sans-serif;
+}
+
+.newsletterText {
+  position: relative;
+  left: 1200px;
+  top: -610px;
+  color: #797979;
+  font-family: sans-serif;
+}
+
+.newsletterInp {
+  position: absolute;
+  top: 230px;
+  left: 1200px;
+  height: 60px;
+  width: 230px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: none;
+  padding-left: 20px;
+}
+
+.subbtn {
+  position: absolute;
+  top: 240px;
+  left: 1400px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: rgb(113, 205, 20);
+  color: white;
+}
+
+.copyrightmessage {
+  position: absolute;
+  left: 400px;
+  top: 350px;
+  color: white;
+}
+
+.copyrighticon {
+  position: absolute;
+  left: 845px;
+  top: 350px;
+  color: white;
+}
+
+.by {
+  position: absolute;
+  left: 866px;
+  top: 350px;
+  color: white;
+}
+
+.bycolor {
+  color: rgb(113, 205, 20);
+  cursor: pointer;
+}
+
+.footericon1 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon2 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon3 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footericon4 {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 1350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
