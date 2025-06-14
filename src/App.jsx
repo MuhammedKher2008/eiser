@@ -11,6 +11,7 @@ import ShoppingCart from "./shoppingCart/shoppingCart";
 import Blog from "./blog/blog";
 import BlogDetails from "./blogDetails/blogDetails"
 import Tracking from "./tracking/tracking";
+import Elements from "./elements/elements";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/blog" element={<Blog />}/>
         <Route path="/blogdetails" element={<BlogDetails />}/>
         <Route path="/tracking" element={<Tracking />}/>
+        <Route path="/Elements" element={<Elements />}/>
 
         <Route path="/contact" element={<Contact />} />
       </Routes>
